@@ -1,0 +1,66 @@
+/* Scss Document */
+nav a:hover{
+	background: grey;
+	box-sizing: border-box;
+	padding : 5%;
+	text-decoration: underline;
+}
+
+
+#perso{
+	width: 90%;
+	display: flex;
+	position: absolute;
+	top: 40vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	background:#20b2aa;	
+	h2{
+	position: absolute;
+	top: -5vh;
+	margin-left: 15vw;
+	text-decoration: underline;
+	}
+	li{
+		
+		list-style: none;
+		margin-top: 0.5em;
+		color: white;
+	}
+	button{
+		margin-top: 1em;
+	}
+}
+
+#lignes{
+	display: flex;
+	justify-content: center;
+	margin-top: 90vh;
+	h2{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		margin-left: 2%;
+		text-decoration: underline;
+	}
+	iframe{
+		margin-top: 5vh;
+		margin-right: 8.4vw;
+		width:75vw;
+		height: 50vh;
+	}
+	#Casse-Couille{
+		position:absolute;
+		text-decoration: none;
+		color:white;
+		padding: 1%;
+		border-radius: 55%;
+		top: 110vh;
+		right: 5vw;
+		background:#20b2aa;
+ 	}
+	button{
+		margin-top : 5vh;
+		margin-right : 2vw;
+	}
+}
